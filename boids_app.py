@@ -15,7 +15,7 @@ BOID_SPEED = 500
 BOID_SEPARATION_WEIGHT = 5 #4/8
 BOID_ALIGNMENT_WEIGHT = 4  #3/8
 BOID_COHESION_WEIGHT = 1   #1/8
-TS = 1/60
+TS = int(1/60 * 100)
 
 # This is the rectangular window in which the boids can be seen
 class boid_view(QGraphicsView):
